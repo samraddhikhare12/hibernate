@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:hibernate-mapping  xmlns:p="http://www.hibernate.org/xsd/hibernate-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hibernate.org/xsd/hibernate-mapping hibernate-mapping-4.0.xsd ">
+<p:class name="com.zensar.entities.Product2" table="product2">
+<p:id name="productId" column="id">
+<p:generator class="assigned"></p:generator>
+</p:id>
+
+<p:property name="name"></p:property>
+<p:property name="brand"></p:property>
+<p:property name="price"></p:property>
+  </p:class>
+
+</p:hibernate-mapping>
